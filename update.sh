@@ -7,7 +7,7 @@ extension=$(zenity --list --width 600 --title "パッケージを選んでくだ
 
 case $extension in
 FireFox) sudo apt install firefox -y
-Wine) sudo apt install --install-recommends winehq-stable
+Wine) sudo apt install -y winehq-stable
 echo $pass
 ;;
 yaa) echo "yaa"
